@@ -1,0 +1,55 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'future_forces_halftoneregular';
+    src: url('futureforceshalf-webfont.woff2') format('woff2'),
+         url('futureforceshalf-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body {
+	padding: 0;
+	margin: 0;
+	background-color: #000000;
+}
+wrapper {
+	margin: 0 auto;
+	display: block;
+	width: 1024px;
+}
+main {
+	height: 523px;
+	text-align: center;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+}
+header ,footer{
+	height: 100px;
+	background-color: #FFFFFF;
+	text-align: center;
+	background-image: url(allbackgrounds.jpg);
+}
+nav {
+        height: 60px;
+}
+ul {
+        padding: 0;
+        margin: 0;
+}
+ul a li {
+        float: left;
+        width: 10%;
+        list-style-type: none;
+        color: #000000;
+        background-color: #f4153f;
+        padding: 24px 0;
+        text-align: center;
+	font-family: 'future_forces_halftoneregular';
+}
+ul a li:hover {
+        background-color: #000000;
+        color: #FFFFFF;
+}
+h1 {
+	padding-left: 18px;
+	color: #FFFFFF;
+}
